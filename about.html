@@ -1,0 +1,72 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!---css-->
+<link rel="stylesheet" href="css/main.css">
+<!---font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://kit.fontawesome.com/201803f718.js" crossorigin="anonymous"></script>
+<title>About us</title>
+</head>
+<body>
+    <!-- BACKGROUD -->
+    <section class="sub-header">
+        <!-- BACKGROUD END -->
+        <!---nav bar-->
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-bar" id="navBar">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+            <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About us</h1>
+    </section>
+    <!---nav bar ends -->
+
+    <!------- About us section -------->
+    
+<section class="about-us">
+    <div class="abt-us">
+        <div class="text-1">
+            <h1>Ottawa's Number One Ice Cream Shop</h1>     
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor. 
+                Proin sagittis nisl rhoncus mattis rhoncus urna. Suscipit tellus mauris a diam maecenas sed enim ut sem. Mauris commodo quis imperdiet 
+                massa tincidunt nunc. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. 
+                Est sit amet facilisis magna etiam. Bibendum neque egestas congue quisque. Diam quam nulla porttitor massa id neque aliquam vestibulum. Lacus suspendisse faucibus 
+                interdum posuere lorem. Mi bibendum neque egestas congue quisque egestas diam in arcu. 
+                Pellentesque elit eget gravida cum sociis natoque penatibus et. Praesent tristique magna sit amet purus gravida quis blandit turpis.</p>
+        </div>
+        <div class="text-1">
+            <img src="images/abt-us.jpg">
+        </div>
+    </div> 
+       
+</section>  
+  
+  <!------- About us section ends  -------->
+
+
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navBar");
+
+    function showMenu() {
+        navBar.style.right = "0";
+    }
+
+    function hideMenu() {
+        navBar.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
