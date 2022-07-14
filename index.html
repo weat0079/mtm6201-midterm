@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!---CSS LINK-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/201803f718.js" crossorigin="anonymous"></script>
+    <!--ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <title>Frosty Dreams</title>
+</head>
+<body>
+    <!-- BACKGROUD -->
+    <section class="header">
+    <!-- BACKGROUD END -->
+    
+    
+    <!------ Nav bar section -------->
+    <nav>
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+        <div class="nav-bar" id="navBar">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+        <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text">
+        <h1 class="main-text">World's Number One Ice Cream</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Neque aliquam vestibulum morbi blandit cursus.</p>
+         <a href="about.html" class="btn-1">About us</a>
+    </div>
+</section>
+<!------ Nav bar section ends -------->
+
+
+
+</section>
+<!--- Javascript for menu toggling -->
+
+<script>
+
+
+
+var navBar = document.getElementById("navBar")
+
+function showMenu(){
+    navBar.style.right = "0";
+
+}
+
+function hideMenu(){
+    navBar.style.right = "-200px";
+    
+}
+
+</script>
+
+
+</body>
+</html>
